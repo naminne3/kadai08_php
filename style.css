@@ -1,0 +1,61 @@
+
+
+  body {
+    font-family: '游ゴシック', 'Yu Gothic', sans-serif;
+    color: #333333; /* 文字色: 濃いグレー */
+    /* 背景画像設定 */
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+  }
+  
+  /* スクロール領域のスタイル */
+  .content-wrapper {
+    width: 80%; /* 画面幅の80% */
+    margin: 0 auto; /* 左右中央揃え */
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明の白背景 */
+    padding: 20px;
+    border-radius: 5px;
+    overflow-y: auto; /* スクロール可能に */
+    max-height: 80vh; /* 画面高さの80%まで */
+  }
+  
+
+
+form, #tableContainer {
+    width: 60%; /* 地図と同じ幅に設定 */
+    margin: 0 auto; /* 左右中央揃え */
+  }
+  
+  form {
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明の白背景 */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+
+  #japan-map {
+    width: 60%;  /* 地図の幅を30%に */
+    height: auto;
+    fill: #3498db;
+    
+  }
+
+ 
+  #mapContainer {
+    margin: 0 auto; /* 左右中央揃え */
+    width: 60%;  /* 地図の幅と同じ値を設定 */ 
+  }
+
+ #recordTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 15%; /* 各セルの幅を15%に (思い出列以外) */
+  }
+  
+  #recordTable td:nth-child(4) { /* 思い出列 */
+    width: 40%; 
+  }
