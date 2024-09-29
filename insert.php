@@ -13,9 +13,9 @@ $memory = $_POST["memory"];
 try {
   //Password:MAMP='root',XAMPP=''
   // さくら
-  // $pdo = new PDO('mysql:dbname=lifecareerdesign_gs_db_kadai08;charset=utf8;host=localhost','root','');
+  // $pdo = new PDO('mysql:dbname=XX08;charset=utf8;host=localhost','root','');
   // ローカル
-  $pdo = new PDO('mysql:dbname=lifecareerdesign_gs_db_kadai08;charset=utf8;host=localhost','root','');
+  $pdo = new PDO('mysql:dbname=XX8;charset=utf8;host=localhost','root','');
 } catch (PDOException $e) {
   exit('DB_CONECT:'.$e->getMessage());
 }
